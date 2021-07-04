@@ -4,13 +4,13 @@ public class School {
 
     public static void main(String[] args) {
 
-        Student ogr1=new Student("Ayşe","Yılmaz");
-        Student ogr2=new Student("Ali","Demir");
-        Student ogr3=new Student("Fatma","Bayrak");
+        Student ogr1=new Student("Elif","Kenighton");
+        Student ogr2=new Student("Gülcan","Hamilton");
+        Student ogr3=new Student("Ceyda","Denizhan");
 //        ...
 //        ...
 //        ...
-        Student ogr=new Student("Furkan","Şimşek");
+        Student ogr=new Student("Bige","Bergstein");
 
         System.out.println("Student.sayac = " + Student.sayac);
 
@@ -24,10 +24,10 @@ public class School {
 }
 
 //Student.sayac = 4
-//        ogr1 = Ogrenci{id='1'ad='Ayşe', soyadi='Yılmaz'}
-//        ogr2 = Ogrenci{id='2'ad='Ali', soyadi='Demir'}
-//        ogr3 = Ogrenci{id='3'ad='Fatma', soyadi='Bayrak'}
-//        ogr = Ogrenci{id='4'ad='Furkan', soyadi='Şimşek'}
+//        ogr1 = Ogrenci{id='1'ad='Elif', soyadi='Kenighton'}
+//        ogr2 = Ogrenci{id='2'ad='Gülcan', soyadi='Hamilton'}
+//        ogr3 = Ogrenci{id='3'ad='Ceyda', soyadi='Denizhan'}
+//        ogr = Ogrenci{id='4'ad='Bige', soyadi='Bergstein'}
 
 // Static nasıl kullanılır ?
 // CLASS adı ile kullanılır.
