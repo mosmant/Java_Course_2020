@@ -12,7 +12,7 @@ public class _01_Period {
         // DateTime lar için kullanılır ,
         // kendisi aynı zamanda belli bir zaman aralığınıda tutabilir.
 
-        LocalDate dtDogumGunu=LocalDate.of(1973, 2, 21);
+        LocalDate dtDogumGunu=LocalDate.of(1981, 2, 12);
         LocalDate buGun = LocalDate.now();
 
         Period fark = Period.between(dtDogumGunu, buGun);
