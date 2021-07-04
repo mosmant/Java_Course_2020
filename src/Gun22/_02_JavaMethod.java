@@ -4,8 +4,8 @@ public class _02_JavaMethod {
 
     public static void main(String[] args) {
         merhabaYaz();
-        ismeMerhabaYaz("ismet"); // parametre gönderme
-        ismeMerhabaYaz("ahmet");
+        ismeMerhabaYaz("gülcan"); // parametre gönderme
+        ismeMerhabaYaz("elif");
     }
 
     public static void merhabaYaz() {
