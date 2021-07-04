@@ -17,14 +17,14 @@ public class _01_ArrayList {
         ArrayList<String> isimler=new ArrayList<>();
 
         //Eleman Ekleme
-        isimler.add("Ahmet"); // uzunluğu 1
-        isimler.add("Ayşe"); // uzunluğu 2
-        isimler.add("Kaya");
-        isimler.add("Kaya"); // hep en sona ekler
+        isimler.add("Elif"); // uzunluğu 1
+        isimler.add("Gülcan"); // uzunluğu 2
+        isimler.add("Grifflinberg");
+        isimler.add("Grifflinberg"); // hep en sona ekler
         System.out.println("isimler = " + isimler); // hızlı yazdırma Arrays.toString
 
         // belli bir indexe eleman ekleme
-        isimler.add(1, "Zeynep");
+        isimler.add(1, "Elif");
         System.out.println("isimler = " + isimler);
 
         //Belli bir indexteki elemanı alma
@@ -32,7 +32,7 @@ public class _01_ArrayList {
         System.out.println("eleman = " + eleman);
 
         // Belli elemanı değiştirmek - update
-        isimler.set(1,"Fatih");
+        isimler.set(1,"Gülcan");
         System.out.println("isimler = " + isimler);
 
         // listede kaç eleman olduğunu verir
@@ -42,14 +42,14 @@ public class _01_ArrayList {
         boolean listeBosMu = isimler.isEmpty();
 
         //Eleman Silme
-        isimler.remove("Kaya"); // verilen değer göre sil
+        isimler.remove("Grifflinberg"); // verilen değer göre sil
         System.out.println("isimler = " + isimler);
 
         isimler.remove(1);  // indexe göre sil
         System.out.println("isimler = " + isimler);
 
         // bir elemanın indexini nasıl bulurum ?
-        int indexOfKaya= isimler.indexOf("Kaya");
+        int indexOfKaya= isimler.indexOf("Grifflinberg");
         System.out.println("indexOfKaya = " + indexOfKaya);
 
         //Tüm elemanları boşaltma
