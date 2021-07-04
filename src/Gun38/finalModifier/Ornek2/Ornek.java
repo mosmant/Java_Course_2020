@@ -8,8 +8,8 @@ public class Ornek {
 
     public static void main(String[] args) {
 
-       Person kisi1=new Person("irfan");
-       Person kisi2=new Person("Emir");
+       Person kisi1=new Person("elif");
+       Person kisi2=new Person("gülcan");
 
         System.out.println("kisi1 = " + kisi1);
         System.out.println("kisi2 = " + kisi2);
