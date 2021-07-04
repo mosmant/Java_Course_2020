@@ -3,10 +3,10 @@ package Gun23;
 public class _06_JavaMethod {
     public static void main(String[] args) {
 
-        ortalamaBulYaz("Ali", 60, 80, 85, 95, 100,60);
-        ortalamaBulYaz("Mehmet", 60, 75, 55, 90);
-        ortalamaBulYaz("Ayşe", 65, 70, 75);
-        ortalamaBulYaz("Ömer", 60, 80, 85, 95, 60);
+        ortalamaBulYaz("Elif", 60, 80, 85, 95, 100,60);
+        ortalamaBulYaz("Gülcan", 60, 75, 55, 90);
+        ortalamaBulYaz("Stephie", 65, 70, 75);
+        ortalamaBulYaz("Thorsten", 60, 80, 85, 95, 60);
 
         ortalamaBulYaz(44, 60, 80, 85, 95, 60);
     }
