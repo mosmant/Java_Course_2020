@@ -10,16 +10,16 @@ public class Ornek {
     // SILME işlemi kontrolü yapınız bir metod için.
 
     public static void main(String[] args) {
-        User mudur=new User("Ragip",Role.MUDUR,Statu.AKTIF);
-        User satis=new User("Hamza",Role.SATIS,Statu.AKTIF);
-        User kul=new User("Necdet",Role.PERSONEL,Statu.PASIF);
+        User mudur=new User("Elif",Role.MUDUR,Statu.AKTIF);
+        User satis=new User("Bige",Role.SATIS,Statu.AKTIF);
+        User kul=new User("Ceyda",Role.PERSONEL,Statu.PASIF);
 
         UserSil(mudur);
         UserSil(satis);
         UserSil(kul);
-//        User mudur=new User("Ragip",2,2);
-//        User satis=new User("Hamza",2,1);
-//        User kul=new User("Necdet",1,1);
+//        User mudur=new User("Elif",2,2);
+//        User satis=new User("Bige",2,1);
+//        User kul=new User("Ceyda",1,1);
 //
 //        if (kul.role == 1)
 //        {
