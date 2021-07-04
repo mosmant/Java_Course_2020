@@ -5,31 +5,31 @@ import java.util.Map;
 
 public class _02_JavaMap {
     public static void main(String[] args) {
-        Map<String,String> semihKartvizit = new HashMap<>();
-        semihKartvizit.put("isim", "Semih Nerde");
-        semihKartvizit.put("email", "Semih@hotmail.com");
-        semihKartvizit.put("adres", "Frkanfurt/Almanya");
-        semihKartvizit.put("telefon", "0 532 230000");
+        Map<String,String> elifKartvizit = new HashMap<>();
+        elifKartvizit.put("isim", "Elif Grifflinberg");
+        elifKartvizit.put("email", "elifgriff@hotmail.com");
+        elifKartvizit.put("adres", "Cologne/Almanya");
+        elifKartvizit.put("telefon", "0 176 980000");
 
-        System.out.println("semihMap.get(isim) = " + semihKartvizit.get("isim"));
-        System.out.println("semihMap.get(telefon) = " + semihKartvizit.get("telefon"));
+        System.out.println("elifMap.get(isim) = " + elifKartvizit.get("isim"));
+        System.out.println("elifMap.get(telefon) = " + elifKartvizit.get("telefon"));
 
-        Map<String,String> ismailKartvizit = new HashMap<>();
-        ismailKartvizit.put("isim", "İsmail Demir");
-        ismailKartvizit.put("email", "ismail@gmail.com");
-        ismailKartvizit.put("adres", "Amsterdam/Hollanda");
-        ismailKartvizit.put("telefon", "0 546 450000");
+        Map<String,String> glcnKartvizit = new HashMap<>();
+        glcnKartvizit.put("isim", "Gülcan Grifflinberg");
+        glcnKartvizit.put("email", "glcngriff@gmail.com");
+        glcnKartvizit.put("adres", "Paris/France");
+        glcnKartvizit.put("telefon", "0 143 9980000");
 
-        System.out.println("ismailKartvizit.get(isim) = " + ismailKartvizit.get("isim"));
-        System.out.println("ismailKartvizit.get(telefon) = " + ismailKartvizit.get("telefon"));
+        System.out.println("glcnKartvizit.get(isim) = " + glcnKartvizit.get("isim"));
+        System.out.println("glcnKartvizit.get(telefon) = " + glcnKartvizit.get("telefon"));
 
            //semih    kartviziti
         Map<String, Map<String,String>  >   kartvizitler=new HashMap<>();
-        kartvizitler.put("semih", semihKartvizit);
-        kartvizitler.put("ismail", ismailKartvizit);
+        kartvizitler.put("elif", elifKartvizit);
+        kartvizitler.put("gülcan", glcnKartvizit);
 
-        System.out.println("semih in telefonu = " + kartvizitler.get("semih").get("telefon"));
-        System.out.println("ismail in bilgileri = " + kartvizitler.get("ismail"));
+        System.out.println("elif in telefonu = " + kartvizitler.get("elif").get("telefon"));
+        System.out.println("gülcan in bilgileri = " + kartvizitler.get("gülcan"));
         System.out.println("kartvizitler = " + kartvizitler);
 
 
@@ -39,10 +39,10 @@ public class _02_JavaMap {
 }
 
 
-//semihMap.get(isim) = Semih Nerde
+//elifMap.get(isim) = Gülcan Elif
 //        semihMap.get(telefon) = 0 532 230000
-//        ismailKartvizit.get(isim) = İsmail Demir
-//        ismailKartvizit.get(telefon) = 0 546 450000
-//        semih in telefonu = 0 532 230000
-//        ismail in bilgileri = {telefon=0 546 450000, adres=Amsterdam/Hollanda, email=ismail@gmail.com, isim=İsmail Demir}
-//        kartvizitler = {ismail={telefon=0 546 450000, adres=Amsterdam/Hollanda, email=ismail@gmail.com, isim=İsmail Demir}, semih={telefon=0 532 230000, adres=Frkanfurt/Almanya, email=Semih@hotmail.com, isim=Semih Nerde}}
+//        glcnKartvizit.get(isim) = Gülcan Elif
+//        glcnKartvizit.get(telefon) = 0 1546 750000
+//        elif in telefonu = 0 532 230000
+//        gülcan in bilgileri = {telefon=0 143 9980000, adres=Paris/France, email=elifgriff@hotmail.com, isim=Gülcan Elif}
+//        kartvizitler = {gulcan={telefon=0 143 9980000, adres=Paris/France, email=elifgriff@hotmail.com, isim=Gülcan Elif}, elif={telefon=0 176 980000, adres=Cologne/Almanya, email=elifgriff@hotmail.com, isim=Gülcan Elif}}
