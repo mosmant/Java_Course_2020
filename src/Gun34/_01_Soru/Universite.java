@@ -18,7 +18,7 @@ public class Universite {
         Ders ders2 = Ders.dersOlustur("Fiz101", 4);
         Ders ders3 = Ders.dersOlustur("Kim101", 3);
 
-        Ogrenci ogr= Ogrenci.ogrenciOlustur("ismet", 10);
+        Ogrenci ogr= Ogrenci.ogrenciOlustur("gülcan", 10);
 
         Ogrenci.dersEkle(ogr, ders1); // ogr.dersleri, ogr.MaxDersSaati
         Ogrenci.dersEkle(ogr, ders2);
@@ -26,7 +26,7 @@ public class Universite {
 
         Ogrenci.dersYazdir(ogr);
 
-        Ogrenci ogr2= Ogrenci.ogrenciOlustur("Mehmet", 20);
+        Ogrenci ogr2= Ogrenci.ogrenciOlustur("elif", 20);
 
         Ogrenci.dersEkle(ogr2, ders1);
         Ogrenci.dersEkle(ogr2, ders2);
