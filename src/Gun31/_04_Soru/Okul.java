@@ -11,15 +11,15 @@ public class Okul {
     public static void main(String[] args) {
       // 2.Kısım
        Student ogr1=new Student();
-       ogr1.Name = "Ahmet";
+       ogr1.Name = "Theo";
        ogr1.not = 70;
 
         Student ogr2=new Student();
-        ogr2.Name = "Ayşe";
+        ogr2.Name = "Elif";
         ogr2.not = 80;
 
         Student ogr3=new Student();
-        ogr3.Name = "Kaya";
+        ogr3.Name = "Maya";
         ogr3.not = 75;
 
         ArrayList<Student> ogrler=new ArrayList<>();
