@@ -3,7 +3,7 @@ package Gun38.StaticModifier.Ornek1;
 public class Ogrenci {
     String ad;
     String soyad;
-    static String okulAd= "Yıldırım Lisesi";
+    static String okulAd= "Brüder Grimm Schule";
 
     public Ogrenci(String ad, String soyad) {
         this.ad = ad;
