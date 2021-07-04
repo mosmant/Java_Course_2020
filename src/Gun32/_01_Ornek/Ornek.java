@@ -10,13 +10,13 @@ public class Ornek {
 
     public static void main(String[] args) {
        Person kisi1=new Person();
-       kisi1.name ="Sevim";
-       kisi1.surName ="Yılmaz";
+       kisi1.name ="Elif";
+       kisi1.surName ="Grifflinberg";
        kisi1.age = 20;
 
        Person kisi2=new Person();
-       kisi2.name="Necdet";
-       kisi2.surName ="Polat";
+       kisi2.name="Gülcan";
+       kisi2.surName ="Bergstein";
        kisi2.age = 26;
 
         //1. Yöntem çok uğraştırıcı
