@@ -5,8 +5,8 @@ public class _05_Ornek3 {
         // Kişinin ağırlığını double, boyunu int olarak değerler veriniz
         // ve bir satırda boyunuz ... ve kilonuz .. şeklinde yazdırınız.
 
-        double kilo = 74.5;
-        int boy = 180;
+        double kilo = 52;
+        int boy = 172;
 
         System.out.println("boyunuz = " + boy + " kilonuz=" + kilo);
     }
