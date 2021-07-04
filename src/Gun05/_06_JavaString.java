@@ -2,12 +2,12 @@ package Gun05;
 
 public class _06_JavaString {
     public static void main(String[] args) {
-        // ad="yeni ismet"; tanımdan önce kullanılamaz
+        // ad="yeni gülcan"; tanımdan önce kullanılamaz
         int sayi =5;
-        String ad="ismet"; // String ifadelerin sayı gibi sınırı belli olmadığından
-        String soyad="temur"; // "" ile sınırı belirtilir.
+        String ad="gülcan"; // String ifadelerin sayı gibi sınırı belli olmadığından
+        String soyad="elif"; // "" ile sınırı belirtilir.
 
-        System.out.println(ad); // -> ismet -> çift tırnak yok ise değişkendir mutlaka
+        System.out.println(ad); // -> gülcan -> çift tırnak yok ise değişkendir mutlaka
                                //              ve değeri yazılır
         System.out.println("ad"); // -> ad -> "" arasında ne varsa direk yazılır
 
@@ -18,18 +18,18 @@ public class _06_JavaString {
         System.out.println("fullName = " + fullName); // -> fullName = adsoyad
 
         fullName=ad+" "+soyad;
-        System.out.println("fullName = " + fullName); // -> fullName = ismettemur
+        System.out.println("fullName = " + fullName); // -> fullName = glcnElif
 
-        int yas=45;
-        int kilo=72;
+        int yas=18;
+        int kilo=15;
         String bilgi=ad+" "+soyad+" "+ yas +" "+kilo;
-        System.out.println("bilgi = " + bilgi); // -> ismet temur 45 72
+        System.out.println("bilgi = " + bilgi); // -> gülcan kskl 18 15
         // toplama işleminde eğer bir tane bile string değişken varsa hepsi string kabul edilir sadece işlemde.
 
         bilgi=ad+" "+soyad+" yas="+ yas +" kilo="+kilo;
-        System.out.println("bilgi = " + bilgi); // -> ismet temur yas=45 kilo=72
+        System.out.println("bilgi = " + bilgi); // -> gülcan kskl yas=18 kilo=15
 
         bilgi=ad+" "+soyad+" "+ (yas +kilo); // bilgisayar önce parantezin için yapar yani sayısal toplar
-        System.out.println("bilgi = " + bilgi); // -> ismet temur 117
+        System.out.println("bilgi = " + bilgi); // -> gülcan elif 13
     }
 }
